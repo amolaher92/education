@@ -1,0 +1,4 @@
+DirectoryIndex index.html index.php
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^([a-zA-z]*)/?([a-zA-z]*)?/?([a-zA-z0-9]*)?/?$ index.php?controller=$1&action=$2&id=$3 [NC,L]

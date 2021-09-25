@@ -1,0 +1,84 @@
+#Perl Introduction
+    1) It's stands for " Practical Extraction and Reporting Language ".
+    2) It is free,open-source, multi-threaded, loosly-typed, dynamic server-side programming langauge.
+    3) It is cross-platform, prototype-based, multi-paradigm,high-level programming language.
+    4) It is functional, object-oriented,imperative programming langauge.
+    5) Perls database integration interface DBI supports third-party databases including Oracle, Sybase, Postgres, MySQL and others.
+    6) Perl works with HTML, XML, and other mark-up languages.
+    7) Developed by " Larry Wall ".
+#Perl Engines
+    1) Perl is interpreted high level programming language.
+    2) Work in Unix like scripting.
+#Perl Popular Frameworks
+    1) Catalyst,Dancer,Jifty, Gantry, Embprel
+#Perl Extension
+    1) save file with ".pl" extension.
+#-------------------------------------------------------------------------------#
+#Perl Data Types    
+    1)Scalars
+        1.1) Integer
+        1.2) Float
+        1.3) String
+    2) Array (@,$)
+    3) Hashes(Associative Arrays[%])
+#-------------------------------------------------------------------------------#
+#Perl Keywords
+1)if          8)continue        15)exp     22)lt      29)qw
+2)else        9)until           16)xor     23)gt      30)qx
+3)elsif       10)unless         17)lock    24)eq      31)qq
+4)do          11)package        18)cmp     25)le      32)qr
+5)while       12)CORE           19)no      26)ge      33)s
+6)for         13)and            20)tr      27)ne      34)y
+7)foreach     14)or             21)sub     28)m       35)q
+#-------------------------------------------------------------------------------#
+#Perl Identifiers and Rules
+A Perl identifier is a name used to identify a variable, function, class, module, or other objects.
+
+1) Identifier are case-sensitive.
+2) variable must begin with a dollar sing[$,@ or %].
+3) variable must begin after dollar sing[$] contain alphabets[a-z|A-Z], OR underscore[_].
+4) variable can contain aplha-numeric[a-z|A-Z|0-9], underscore[_].
+5) variable can not contain Keywords.
+6) variable can not contain whitespaces.
+7) variable can not contain special symbol.
+8) Math operations rule-> Multiplication | Division | Addition | Subtraction.
+9) Prefered to use Snake_case,camelCase OR PascalCase.
+#-------------------------------------------------------------------------------#
+#Perl Operators
+Arithmetic operators[+,-,*,/,%,++,--,**].
+Comparison operators[==,!=,===,!==,>,>=,<,<=,<>],[lt,gt,le,ge,eq,ne,cmp].
+Bitwise operators[&,|,~,^,<<,>>,>>>].
+Logical operators[&&,||,!,AND,OR,NOT].
+Assignment operators[=,+=,-=,*=,/=,%=,**=, <<=,>>=,&=,|=,^=,&&=,||=,??=].
+Ternary operator(Conditional)[condition ? val1 : val2].
+Quates[q{},qq{},qx{}].
+#-------------------------------------------------------------------------------#
+#Perl Literals
+1) Numeric Literals
+    1.1) Decimal[Base 10] are define as normal integer.-->{[0-9]}.
+    1.2) Octal[Base 8] are define a leading zero[0]-->{0[1-7]}.
+    1.3) Hexadecimal[0-9,A-F] are defined a leading zero+x[0x].-->{0x[0-9,A-F]}.
+2) String Literal
+    2.1) String will be declare double OR single quote.{"string", 'string'}.
+    2.2) String will be concatenated with period operator(.).
+    2.3) The repetition operator(x).
+            -->('_' X 3) will give [__].
+    2.4) The range operator(..).
+            -->(2..5) will give (2,3,4,5).
+    2.5) Arrow operator use to access class variable to object(->).
+            -->$obj->$var.
+3) Array Literal
+    3.1) Indexed Array variable must begin with a Addirect sing[@] in values with Parentheses().
+            -->@newArray = ("A","B","C")
+    3.2) Hashes(Associative Array) variable must begin with a Percent sign(%) in 
+        values with Curly Braces{}.
+            -->%Alpha = {"A" => "Apple","B" => "Ball"}.
+#-------------------------------------------------------------------------------#
+#Perl Comments
+Single line (#)
+Multiline line(=begin comment ........=cut).
+#-------------------------------------------------------------------------------#
+#Perl Error Types
+1) Syntax error
+2) Logical error(Exceptions).
+#-------------------------------------------------------------------------------#
