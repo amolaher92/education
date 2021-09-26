@@ -1,0 +1,203 @@
+<!-- HTML Basics -->
+HTML stands for Hyper-Text Markup Language.
+It's basic building block of world wide web.
+HTML originally developed by "Tim Berners-Lee" in 1990.He is also knwon as the father of the web in 1996.
+<!--Getting Started  -->
+Save the file name as index.html
+HTML Template is basic skeleton of every web pages.
+<!-- Document type declaration -->
+<!DOCTYPE html>
+<html lang="en">
+<!-- Provide the information about the page and it's not display -->
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="#">
+    <script src="#"></script>
+    <noscript></noscript>
+    <style></style>
+</head>
+<!-- Display the content -->
+
+<body>
+</body>
+
+</html>
+<!-- HTML syntax -->
+<StartTag Attribute="Value">Content</EndTag>
+    <p class="value" readonly>Content</p>
+    <!-- Boolean attribute doen not required attribute value pairing  -->
+    <!-- Headings -->
+    <<!DOCTYPE html>
+        <html>
+
+        <head>
+            <meta charset="utf-8">
+            <title>Headings</title>
+        </head>
+
+        <body>
+            <!-- Headings h1 to h6 -->
+            <!-- It's block level element -->
+            <h1>Heading level 1</h1>
+            <h2>Heading level 2</h2>
+            <h3>Heading level 3</h3>
+            <h4>Heading level 4</h4>
+            <h5>Heading level 5</h5>
+            <h6>Heading level 6</h6>
+        </body>
+
+        </html>
+        <!-- Paragraph -->
+        <!DOCTYPE html>
+        <html>
+
+        <head>
+            <meta charset="utf-8">
+            <title></title>
+        </head>
+
+        <body>
+            <!-- Paragraph -->
+            <!-- It's block level element -->
+            <p>This is paragraph</p>
+            <!-- Line break -->
+            <br />
+            <!-- Horizontal line -->
+            <hr />
+            <!-- Preformatted text -->
+            <pre>This is pre-formatted Text</pre>
+            <!-- Link -->
+            <a href="url" target="__blank">Link Text</a>
+            <!-- Link Target -->
+            <!-- __blank, __parent, __self, __top -->
+            <!-- Images -->
+            <img src="url" alt="about_img">
+        </body>
+
+        </html>
+        <!-- Text Formatting -->
+        <!DOCTYPE html>
+        <html>
+
+        <head>
+            <meta charset="utf-8">
+            <title></title>
+        </head>
+
+        <body>
+            <!-- Text Formatting -->
+            <p>This is <b>Bold</b> Text.</p>
+            <p>This is <strong>Strong Important</strong> Text.</p>
+            <p>This is <i>Italic</i> Text.</p>
+            <p>This is <em>Emphasized</em> Text.</p>
+            <p>This is
+                <mark>Markable </mark> Text.
+            </p>
+            <p>This is <code>Code Block</code> Text.</p>
+            <p>This is <sub>Sub-Script</sub> Text</p>
+            <p>This is <sup>Sup-Script</sup> Text</p>
+            <p>This is <del>Deleted </del> Text.</p>
+            <p>This is <ins>Inserted </ins> Text.</p>
+            <p>This is <small>Small</small> Text.</p>
+            <p>This is <q>Quote</q> Text.</p>
+            <!-- Quotations -->
+            <blockquote>
+                <p>I am Web developer and learing new technology</p>
+                <cite>Amol Aher</cite>
+            </blockquote>
+            <!-- Abbreviations -->
+            <p>This is <abbr title="World wide web">W3c</abbr> Concepts.</p>
+            <!-- Addresss -->
+            <address>
+                AT POST Vadner Bhairav<br>
+                Main Road Nehru Chowk<br>
+                Vadner Bhairav, Chandwad<br>
+                Nashik, Maharashtra, India 423111
+            </address>
+        </body>
+
+        </html>
+        <!-- Style -->
+        <!DOCTYPE html>
+        <html>
+
+        <head>
+            <meta charset="utf-8">
+            <title></title>
+            <link rel="stylesheet" href="#">
+            <!-- Style -->
+            <!-- Embedded Style -->
+            <style>
+            @import url("url");
+
+            #embedded {
+                color: yellow;
+                background-color: red;
+            }
+            </style>
+        </head>
+
+        <body>
+            <!-- Style -->
+            <!-- Inline Style -->
+            <p style="color:red; background-color: blue;">This is Inline Style</p>
+            <p id="embedded">This Embedded Text.</p>
+        </body>
+
+        </html>
+        <!-- Pictures -->
+        <!DOCTYPE html>
+        <html>
+
+        <head>
+            <meta charset="utf-8">
+            <title></title>
+        </head>
+
+        <body>
+            <!-- Pictures -->
+            <picture>
+                <source media="(min-width:100px)" srcset="logoSmall.png">
+                <source media="(max-width:500px)" srcset="logoLarge.png">
+                <img src="logo-default" alt="about_img">
+            </picture>
+            <!-- Image Mapping -->
+            <img src="object.png" alt="about_img">
+            <map name="objects">
+                <area shape="circle" coords="137.34.256" href="clock.html" alt="clock">
+            </map>
+        </body>
+
+        </html>
+
+        <!-- Tables -->
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <meta charset="utf-8">
+            <title></title>
+        </head>
+        <body>
+            <!-- Tables -->
+            <table>
+                <caption>User Info</caption>
+                <thead>
+                    <tr>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                    </tr>
+                </tfoot>
+            </table>
+        </body>
+        </html>

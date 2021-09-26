@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!-- Root element of this page -->
+<html lang="en" text="ltr">
+  <!-- Head section for meta data -->
+  <head>
+    <!-- meta data of the page -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="refresh" content="30" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This Basic Web Site Content for Resume" />
+    <meta name="keywords" content="HTML,CSS,JS,BS,PHP,MYSQL" />
+    <meta name="author" content="BrainBull Technology by Amol Aher" />
+    <!-- title of this page -->
+    <title></title>
+    <!-- link external CSS -->
+    <link rel="stylesheet" type="text/css" href="#" />
+    <!-- link external JS -->
+    <script defer type="text/javascript" src="#"></script>
+    <!-- Define the CSS internal -->
+    <style></style>
+  </head>
+  <!-- body section for visualize containt -->
+  <body>
+    <!-- Header of the page -->
+    <header id="header">
+      <!-- Navigation of this page -->
+      <nav class="navbar">
+        <!-- Create unordered list -->
+        <ul class="list-item">
+          <!-- list with hyperlink -->
+          <li class="item-list"><a href="#">Home</a></li>
+          <li class="item-list"><a href="#">Profile</a></li>
+          <li class="item-list"><a href="#">Education</a></li>
+          <li class="item-list"><a href="#">Experience</a></li>
+          <li class="item-list"><a href="#">Contact US!</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr class="horizontal-rules" />
+    <!-- main section of page -->
+    <main id="main">
+      <section id="blockLevel">
+        <!-- define inline css -->
+        <h1 style="font-size: 2rem; color: #ff3edf">Heading tag H1</h1>
+        <h2>Heading tag H2</h2>
+        <h3>Heading tag H3</h3>
+        <h4>Heading tag H4</h4>
+        <h5>Heading tag H5</h5>
+        <h6>Heading tag H6</h6>
+        <p class="paragraph">This is paragraph</p>
+        <br class="lineBreak" />
+        <hr class="horizontal-rules" />
+        <pre class="preformatText">Amol Arun Aher</pre>
+        <div class="blockQuote">
+          <p>Here is a quote from WWF's website:</p>
+          <blockquote cite="http://www.worldwildlife.org/who/index.html">
+            For 50 years, WWF has been protecting the future of nature. The
+            world's leading conservation organization, WWF works in 100
+            countries and is supported by 1.2 million members in the United
+            States and close to 5 million globally.
+          </blockquote>
+          <address>
+            Mr.Amol Arun Aher,<br />
+            Gokuldham Row Houses,<br />
+            House No.A12, <br />
+            Vrundavan Nagar, Nashik, MH-422007
+          </address>
+        </div>
+        <div>
+          <img
+            src="../Images/party.jpg"
+            alt="party image"
+            style="height: 400px; width: 700px"
+          />
+          <picture>
+            <source media="(min-width:500px)" srcset="../Images/party.jpg" />
+            <source media="(min-width:700px)" srcset="../Images/party.jpg" />
+          </picture>
+        </div>
+      </section>
+      <br />
+      <section class="inlineLevel">
+        <!-- single whitespace -->
+        <strong class="strong"> whitespace&nbsp</strong>
+        <div class="textFormatting">
+          <b>Bold Text</b><br />
+          <strong>Important Text</strong><br />
+          <i>Italic Text</i><br />
+          <em>Emphasized Text</em><br />
+          <mark>Marked Text</mark><br />
+          <small>Smaller Text</small><br />
+          <del>Deleted Text</del><br />
+          <ins>Inserted Text</ins><br />
+          <sub>Subscript Text</sub><br />
+          <sup>Superscript Text</sup><br />
+        </div>
+        <p class="quatation">Auomation is <q>Amezon Web Services</q></p>
+        <p class="Abbreviation">
+          <!-- provide hide full form  -->
+          The cloud services provide <abbr title="Amezon Web Service">AWS</abbr>
+        </p>
+        <!-- Element render in italic -->
+        <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+        <!-- Override the text direction -->
+        <bdo dir="rtl">This text will be written from right to left</bdo>
+        <p>Message from my computer:</p>
+        <p>
+          <samp>File not found.<br />Press F1 to continue</samp>
+        </p>
+        <p>Save the document by pressing <kbd>Ctrl + S</kbd></p>
+      </section>
+      <section id="table">
+        <table border="2px">
+          <caption>
+            Student Names
+          </caption>
+          <thead border>
+            <tr>
+              <th>Name</th>
+              <th>City</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Amol</td>
+              <td>Nasik</td>
+            </tr>
+            <tr>
+              <td>Sagar</td>
+              <td>Pune</td>
+            </tr>
+            <tr>
+              <td>Kiran</td>
+              <td>Mumbai</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td>MH</td>
+              <td>DL</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+      <section id="lists">
+        <!-- Ordered list -->
+        <ol>
+          <li>Amol</li>
+          <li>Kanchan</li>
+          <li>Suraj</li>
+        </ol>
+        <!-- Unordered list -->
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JS</li>
+        </ul>
+        <!-- Descriptive list -->
+        <dl>
+          <dt>Name</dt>
+          <dd>Amol</dd>
+          <dt>Surname</dt>
+          <dd>Aher</dd>
+        </dl>
+      </section>
+      <article id="iframe">
+        <iframe src="https://groww.in" frameborder="1"></iframe>
+      </article>
+    </main>
+    <!-- Footer of this page with navigation links -->
+    <footer id="footer">
+      <nav class="navbar">
+        <ul class="list-item">
+          <li class="item-list"><a href="#">Home</a></li>
+          <li class="item-list"><a href="#">Profile</a></li>
+          <li class="item-list"><a href="#">Education</a></li>
+          <li class="item-list"><a href="#">Experience</a></li>
+          <li class="item-list"><a href="#">Contact US!</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+  <script>
+    var navigation = document.getElementById("header");
+    navigation.style.backgroundColor = "#ff3ed2";
+    navigation.style.fontSize = "1.5rem";
+  </script>
+</html>
