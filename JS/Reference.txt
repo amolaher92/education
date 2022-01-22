@@ -1,20 +1,20 @@
-#Javscript Introduction
-    1) It is lightweight, interpreted,compiled client side(Browser) scripting langauge.
+#Javascript Introduction
+    1) It is lightweight, interpreted,compiled client side(Browser) scripting language.
     2) It is cross-platform, prototype-based, multi-paradigm scripting language.
-    3) It is single-threaded, loosely-typed, dynamic,high level scripting langauge.
-    4) It's supports functional, object-oriented, imperative and declerative style.
+    3) It is single-threaded, loosely-typed, dynamic,high level scripting language.
+    4) It's supports functional, object-oriented, imperative and declarative style.
     5) It's controlling web page behavior.
-    6) Developed by "Brendan Eich" at Netscape.
+    6) Developed by "Brendan Each" at Netscape.
     7) Full integration with HTML and CSS.
-#Popular Javscript Engines
+#Popular Javascript Engines
     1) Chrome's and Opera - V8 Engine.
     2) Firefox - SpiderMonkey.
     3) Safari - JavascriptCore i.e. SquirrelFish*[Extreme].
     4) Edge's - Chakra.
-#Javscript Framework's and Libraries
+#Javascript Framework's and Libraries
     1) React, Vue, Angular, Ember, Backbone.
     2) jQuery, Glimmer, Popper,D3,Google Polymer.
-#Javscript Extension
+#Javascript Extension
     1) save file with ".js" extension.
 #-------------------------------------------------------------------------------#
 #JS Data Types
@@ -51,13 +51,13 @@ An identifier is a sequence of characters in the code that identifies a variable
 function, or property.
 
 1) Identifier are case-sensitive.
-2) variable must begin|start with a alphabets[a-z|A-Z], dollar sing[$] OR underscore[_].
-3) variable can contain aplha-numeric[a-z|A-Z|0-9], underscore[_] and dollar sign[$].
+2) variable must begin|start with an alphabets[a-z|A-Z], dollar sing[$] OR underscore[_].
+3) variable can contain alphabets-numeric[a-z|A-Z|0-9], underscore[_] and dollar sign[$].
 4) variable can not contain Keywords.
 5) variable can not contain whitespaces.
 6) variable can not contain special symbol.
 7) Math operations rule-> Multiplication | Division | Addition | Subtraction.
-8) Prefered to use Snake_case,camelCase OR PascalCase.
+8) Preferred to use Snake_case,camelCase OR PascalCase.
 #-------------------------------------------------------------------------------#
 #JS operators
 Arithmetic operators[+,-,*,/,%,++,--,**].
@@ -66,37 +66,70 @@ Bitwise operators[&,|,~,^,<<,>>,>>>].
 Logical operators[&&,||,!]
 Assignment operators[=,+=,-=,*=,/=,%=,**=, <<=,>>=,&=,|=,^=,&&=,||=,??=].
 Ternary operator(Conditional)[condition ? val1 : val2].
-Others operator[typeof,delete,in,instanceof,void,new,this].
+String concatenate operator[+].
+Comma operator[,]
+Unary operator[typeof,delete,void].
+Relational operators[in,instanceof,new,this]
+
+1) Syntax
+    1.1) [operand1] operator [operand2]
+    1.2) operator [operand2]
+    1.3) [operand1] operator
+2) Operator precedence
+    1) member   =   . []
+    2) call / create instance   =   () new
+    3) multiply/divide  =   * / %
+    4) addition/subtraction =   + -
+    5) relational   =   < <= > >= in instanceof
+    6) assignment   =   = += -= *= /= %= <<= >>= >>>= &= ^= |= &&= ||= ??=
+    7) equality     =   == != === !==
 #-------------------------------------------------------------------------------#
 #JS Literals
 JavaScript Literals are the fixed value that cannot be changed, you do not need to 
 specify any type of keyword to write literals.
 
 1) Numeric Literals
-    1.1) Decimal[Base 10] are define as normal integer.-->{[0-9]}.
-    1.2) Octal[Base 8] are define a leading zero[0]-->{0[1-7]}.
-    1.3) Hexadecimal[0-9,A-F] are defined a leading zero+x[0x].-->{0x[0-9,A-F]}.
-2) String Literal
-    2.1) String will be declare double OR single quote.{"string", 'string'}.
+    1) Integer
+        1.1) Decimal[Base 10] are defined as normal integer.-->{[0-9]}.
+        1.2) Octal[Base 8] are defined a leading zero[0]-->{0[1-7]}.
+        1.3) Hexadecimal[0-9,A-F] are defined a leading zero+x[0x].-->{0x[0-9,A-F]}.
+        1.4) Binary[Base 2] are defined a leading zero+b[0b]. -->{0b[0,1]}.
+    2) Floating
+        2.1) [digits].[digits][(E|e)[(+|-)]digits] --> {12.12E+2}
+2) String Literals
+    2.1) String will be declared double OR single quote.{"string", 'string'}.
     2.2) String will be concatenated with unary plus sign(+). 
-3) Template literal
-    3.1) Used to backsticks {`string`}.
-4) Array Literal
+3) Template literals
+    3.1) Used to back sticks {`string`}.
+    3.2) Used to variable in interpolation `${variable}`.
+    3.3) Expression Substitution to allow expressions in interpolation.
+4) Array Literals
     4.1) Array define with square bracket{["A","B","c"]}.
-5) Object Literal
-    5.1) Object is define to Curly Braces with key and value pairs.[{"Key" : "value"}].   
+5) Object Literals
+    5.1) Object is define to Curly Braces with key and value pairs.[{"Key" : "value"}].
+6) Enhanced Object literals
+    6.1) Support setting the prototype at construction,shorthand for assignments, defining methods,
+    making super calls, and computing property names with expressions.
+    6.2) Ex. handler : handler === handler
+7) Boolean Literals
+    6.1) The Boolean type has two literal values: true and false.
+8) Regular Expression literals
+    8.1) Regular expressions are patterns used to match character combinations in strings.
+    8.2) Using a regular expression literal, which consists of a pattern enclosed between slashes.
+    8.3) Ex. let re = /ab+c/;
+    8.4) Ex. let re = new RegExp('ab+c');
 #-------------------------------------------------------------------------------#
 #JS Comments
 1) Single line (//).
 2) Multiline (/*....*/).
 #-------------------------------------------------------------------------------#
 #JS Errors Types
-The 7 types of native erros in JS.
+The 7 types of native errors in JS.
 1) EvalError
     Creates an instance representing an error that occurs regarding the global function eval().
 2) RangeError
     Creates an instance representing an error that occurs when a numeric variable
-    or parameter is outside of its valid range.
+    or parameter is outsides of its valid range.
 3) ReferenceError
     Creates an instance representing an error that occurs when de-referencing an invalid reference.
 4) SyntaxError
@@ -111,40 +144,40 @@ The 7 types of native erros in JS.
     Creates an instance representing several errors wrapped in a single error when 
     multiple errors need to be reported by an operation, for example by Promise.any().
 #-------------------------------------------------------------------------------#
-#JS Decision Making Statement
+#JS Decision-Making Statement
 A) Conditional Making
 
-1) if(condition){
+1) if((expression)){
         //code to run if condition is true
     }
 #---------------------------------------
-2) if(condition){
+2) if((expression)){
         //code to run if condition is true;
     }else{
         //code to run if condition is false;
     }
 #---------------------------------------
-3) if(condition){
+3) if((expression)){
         //code to run if condition is true;
-        if(condition){
+        if((expression)){
             //code to run if condition is true;
-            if(condition){
+            if((expression)){
                 //code to run if condition is true;
             }
         }
     }
 #---------------------------------------
-4) if(condition){
+4) if((expression)){
     //code to run if condition is true;
-    }else if(condition){
+    }else if((expression)){
         //code to run if condition is true;
-    }else if(condition){
+    }else if((expression)){
         //code to run if condition is true;
     }else{
         //code to run if condition is false;
     }
 #---------------------------------------
-5) swich(expression)
+5) switch((expression))
     //Expression must have Number or string;
     {
         case choice1 : //code to run if condition is true;
@@ -164,9 +197,9 @@ A) Conditional Making
 6) Ternary operator
 condition ? //Statement to run if condition is true; : //Statement to run if condition is false;
 #---------------------------------------
-B) Loops Making
+B) Loop Making
 
-1) for(initialization; condition; expression[increment/decrement])
+1) for([initialization];[condition];[expression[increment/decrement]])
 {
     // code to run
 }
@@ -191,7 +224,7 @@ for(KeyName in object)
     //code to be executed;
 }
 4.2) Array properties
-for(variablename in array)
+for(variableName in array)
 {
     //code to be executed;
 }
@@ -204,8 +237,34 @@ for(keyName of object)
 }
 
 5.2) Array properties
-for(variablename of array)
+for(variableName of array)
 {
     //code to be executed;
 }
+#---------------------------------------
+6) labeled statement
+    label: Statement
+7) Break Statement
+    break;
+    break [label];
+8) Continue Statement
+    continue;
+    continue[label];
+#-------------------------------------------------------------------------------#
+#JS Functions
+A) A function can call itself.
+B) Variables defined inside a function cannot be accessed from anywhere outside the function,
+because the variable is defined only in the scope of the function.
+1) Function declarations
+    function functionName([parameter]){
+        //code to be executed;
+    }
+2) Variable Function
+    const varName = function([parameter]){
+
+    };
+3) Arrow Function
+    const varName = () => {
+        //code to be executed;
+    };
 #-------------------------------------------------------------------------------#
