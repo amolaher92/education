@@ -1,0 +1,135 @@
+{
+  "HTML": [
+    "Hyper Text Markup Language",
+    "The Standard markup language for creating Web Pages",
+    "Describes the structure of a Web page "
+  ],
+  "<!DOCTYPE html>": [
+    "Declare start at the top of HTML page",
+    "Declaration defines that this is an HTML5 document"
+  ],
+  "<html>": "Root element of an HTML5 page",
+  "<head>": "Contains meta information about the HTML page",
+  "<title>": "Specifies a title for the HTML page",
+  "<meta>": "Contains meta information",
+  "URL-type": ["Absolute URL", "Relative URL"],
+  "color-Values": ["rgb", "Hex", "hsl", "rgba", "hsla"],
+  "CSS-add-html": ["Inline", "Internal", "External"],
+  "Hyperlinks": {
+    "Unvisited_link": "underline and blue",
+    "Visited_link": "underline and purple",
+    "Active_link": "underline and red"
+  },
+  "Attributes": [
+    "title",
+    "id",
+    "class",
+    "src",
+    "href",
+    "alt",
+    "type",
+    "style",
+    "height",
+    "width",
+    "dir",
+    {
+      "target": {
+        "_self": "Default Opens the document in the same window",
+        "_blank": " Opens the document in a new window",
+        "_parent": "Opens the document in the parent frame",
+        "_top": "Opens the document in the full body of the window"
+      }
+    },
+    "srcset",
+    "media",
+    "rowspan",
+    "colspan",
+    "border",
+    {
+      "unordered-list-style-type": ["disc", "circle", "square", "none"],
+      "ordred-list-style-type": ["1", "A", "a", "I", "i"]
+    }
+  ],
+  "Block-level-element": [
+    "main",
+    "header",
+    "nav",
+    "section",
+    "article",
+    "div",
+    "p",
+    "aside",
+    "h1",
+    "h2",
+    "h3",
+    "h4",
+    "h5",
+    "h6",
+    "address",
+    "blockquote",
+    ["picture", "source"],
+    ["table", "tr", "th", "td", "thead", "tbody", "tfoot"],
+    ["ul", "ol", "li", "dl", "dt", "dd"],
+    "fieldset",
+    "figcaption",
+    "figure",
+    "form",
+    "hr",
+    "video",
+    "noscript"
+  ],
+  "Inline-level-element": [
+    "span",
+    "script",
+    "select",
+    "textarea",
+    "time",
+    "var",
+    "a",
+    "acroyms",
+    "bdo",
+    "big",
+    "button",
+    "dfn",
+    "img",
+    "input",
+    "kbd",
+    "label",
+    "object",
+    "output",
+    "em",
+    "strong",
+    "i",
+    "b",
+    "code",
+    "sup",
+    "sub",
+    "del",
+    "ins",
+    "q",
+    "abbr",
+    "cite",
+    "samp"
+  ],
+  "Absolute-value": ["px", "pt", "pc", "cm", "in", "mm", "Q"],
+  "Relative-value": ["em", "rem", "vh", "vw", "%", "vmin", "vmax", "lh"],
+  "Images Format": {
+    "APNG": ["Animated Portable Network Graphics", ".apng"],
+    "GIF": ["Graphics Interchange Format", ".gif"],
+    "ICO": ["Microsoft Icon", ".ico", ".cur"],
+    "JPEG": [
+      "Joint Photographic Expert Group image",
+      ".jpg",
+      ".jpeg",
+      ".jfif",
+      ".pjpeg",
+      ".pjp"
+    ],
+    "PNG": ["Portable Network Graphics", ".png"],
+    "SVG": ["Scalable Vector Graphics", ".svg"]
+  },
+  "Table-span": {
+    "rowspan": "make a cell span many rows",
+    "colspan": "make a cell span many columns"
+  }
+}
