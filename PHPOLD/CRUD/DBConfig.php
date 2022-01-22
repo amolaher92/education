@@ -21,7 +21,7 @@ if(!class_exists('DBConfig')) :
 			}
 			catch(PDOException $e)
 			{
-				die('Error' . $e->getMessage());
+				die('Errors' . $e->getMessage());
 			}
 		}
 	}

@@ -1,9 +1,9 @@
 #Javscript Introduction
     1) It is lightweight, interpreted,compiled client side(Browser) scripting langauge.
     2) It is cross-platform, prototype-based, multi-paradigm scripting language.
-    3) It is single-threaded, loosly-typed, dynamic,high level scripting langauge.
+    3) It is single-threaded, loosely-typed, dynamic,high level scripting langauge.
     4) It's supports functional, object-oriented, imperative and declerative style.
-    5) It's controlling web page bahavior.
+    5) It's controlling web page behavior.
     6) Developed by "Brendan Eich" at Netscape.
     7) Full integration with HTML and CSS.
 #Popular Javscript Engines

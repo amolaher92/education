@@ -2,7 +2,7 @@
 class FunctionsString
 {
 	public $myString = "Hello, I am Amol";
-	public $position = "PHP Web Developer";
+	public $position = "PHPOLD Web Developer";
 	public $first = "amol";
 	public $words = "software developer";
 	public $marray = array(1,2,3,4,5,6);
@@ -58,7 +58,7 @@ class FunctionsString
 		echo sha1($this->first)."\n";
 
 		/*String replace with character argument*/
-		echo str_replace("PHP", "LAMP", $this->position)."\n";
+		echo str_replace("PHPOLD", "LAMP", $this->position)."\n";
 		echo str_ireplace("Hello", "Hi", $this->myString)."\n";
 
 		/*String reapeat multiple times*/
