@@ -57,8 +57,8 @@ console.log(app2.person);
  *
  * The object that was passed to the function.
  */
-const app = {};
-Object.defineProperties(app, {
+const object = {};
+Object.defineProperties(object, {
     person: {
         value: 'Amol',
         writable: true,
@@ -67,8 +67,8 @@ Object.defineProperties(app, {
         value: 'Second'
     }
 });
-console.log(app.person);
-console.log(app.person2);
+console.log(object.person);
+console.log(object.person2);
 
 /**
  *@method Object.entries()

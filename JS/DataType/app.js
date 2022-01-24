@@ -1,5 +1,5 @@
 /**
- * const myHeading = document.querySelector('#app');
+ * const myHeading = document.querySelector('#object');
  * myHeading.textContent = "Hello World";
  */
 
