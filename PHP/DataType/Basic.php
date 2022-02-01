@@ -16,6 +16,7 @@ class Basic
         self::TheShortHand();
         self::AllDataTypes();
         self::checkBoolean();
+        $this->VariableReference();
     }
 
     /**
@@ -89,6 +90,15 @@ class Basic
         $i = is_bool(self::$Wrong) ?? '';
         echo $i === true ? "The Boolean Value is False\n" : "The Boolean Value is True\n";
     }
+
+    public function VariableReference()
+    {
+        echo "Variable Reference\n";
+        $a = 'hello';
+        $$a = 'World';
+        echo $a . " " . $hello . "\n";
+    }
 }
+
 ?>
 
