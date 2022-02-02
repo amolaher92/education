@@ -1,9 +1,9 @@
 <?php
-$classes = ['Basic', 'IntegerData', 'StringData', 'CallablesFunctions'];
+$classes = ['Basic', 'IntegerData', 'StringData', 'CallablesFunctions','MagicConstants','SuperGlobals'];
 $path = './DataType/';
 $extension = '.php';
 foreach ($classes as $class) {
-    require($path . $class . $extension);
+    require($path . $class . $extension) ?? die("File Not Found");
 }
 require('./DataType/Array/ArrayData.php');
 require('./DataType/Casting/CastingCoach.php');
@@ -25,3 +25,5 @@ var_dump($objBasic instanceof Basic);
 var_dump($objInt instanceof Basic);
 
 $objCasting = new CastingCoach;
+$objMagicConstant = new MagicConstants;
+$objSuperGlobal = new SuperGlobals;
