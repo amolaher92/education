@@ -11,6 +11,7 @@ class CallablesFunctions
     public function __construct()
     {
         $this->FirstCallable();
+        self::SimpleCallback();
     }
 
     public function FirstCallable()
@@ -58,7 +59,7 @@ call_user_func('CallablesFunctions::SecondStaticCallable');
 $obj = new CallablesFunctions;
 call_user_func(array($obj, 'FirstCallable'));
 
-class A
+class A extends CallablesFunctions
 {
     public static function Hello()
     {
@@ -78,4 +79,4 @@ class B extends A
 /**
  * Inheritance Method callback
  */
-call_user_func(array('B', 'parent::Hello'));
+call_user_func(array('A', 'parent::ClosureCallback'));
