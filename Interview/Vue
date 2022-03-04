@@ -5,19 +5,20 @@ It's provides a declarative and component based programming model.
 It's provides a MVVM architecture and Two-way binding concept.
 
 2)What are major features of Vue.js?
-A)Virtual DOM : It's light-weight-in-memory three representation of the original HTML DOM and update without affecting the original HTML DOM.
-B)Component : Used to create reuseble custom elements in Vue application.
+A)Virtual DOM : It's light-weight-in-memory three representation of the original HTML DOM and update without affecting
+                the original HTML DOM.
+B)Component : Used to create reusable custom elements in Vue application.
 C)Templates : It's Provides HTML based templates that bind the DOM with the Vue instance data.
 D)Routing : Navigation between pages is achieved through vue-router
 E)Built-in-directive : It's special attributes and they apply special reactive behavior to rendered DOM in HTML element.
-F)Supprt MVVM architecture
+F)Support MVVM architecture
 
 3)Life Cycle of Vue.js?
 Life cycle hooks are a window into how the library you're using works behind-the-scenes.
 The Basically 8 type hooks are in Vue lif cycle.
 1)beforeCreate() :
-	This hooks is very initilization of our Vue component.
-	Hooks are observes data and initilization events in our component.
+	This hooks is very initialization of our Vue component.
+	Hooks are observes data and initialization events in our component.
 	Here, data is still not reactive and events that occur during the component.
 2)created():
 	This hook is invoked when Vue has set up events and data observation.
@@ -28,7 +29,8 @@ The Basically 8 type hooks are in Vue lif cycle.
 	This is most used hook it's gives us fu ll access to the reactive component, templates, and rendered DOM.
 	This hook allow us fetching data to our component.
 5)beforeUpdate() :
-	This hooks are runs after data changes on our component and the update life cycle begins, right before the DOM is patched and re-rendered.
+	This hooks are runs after data changes on our component and the update life cycle begins,
+	right before the DOM is patched and re-rendered.
 6)update() :
 	This hooks runs after data changes on our component and the DOM re-renders.
 7)beforeDestroy() :
@@ -59,7 +61,7 @@ Props is a custom attribute and when a value is passed to attribute then it beco
 
 8)What are Mixins?
 It's gives us a way to distribute reusable functionalities in Vue components.
-The reuseble functions are merged with existing function.
+The reusable functions are merged with existing function.
 A mixins object can contain any component options.
 Mixins can accept array objects.
 
@@ -71,12 +73,14 @@ We can define filter both global and local scope
 
 10)Difference between one-way and two-way binding?
 11)What is Vuex?
-It's centerlized store for all the components in an application
+It's centralized store for all the components in an Vue application.
 12)Difference between watcher and computed?
-13)What are computed proprty?
+13)What are computed property?
 14)What are watchers?
 15)What is $route?
 16)What is $emit?
 17)Vue project folder Structure?
 18)Define custom directive?
 19)What is component?
+20)Differentiate vue directive modifiers for all events?
+21)

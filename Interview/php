@@ -1,0 +1,57 @@
+1)What is PHP and it's features and engine?
+2)What are the dataType in PHP?
+3)What is session in PHP and how to create?
+4)What is cookies in PHP and how to create?
+5)How to define constant in PHP and it's function and keyword?
+6)Difference between variable and constant?
+7)What is PEAR in PHP?
+8)Difference between echo and print?
+9)How can PHP will interact with HTML?
+10)Define the Errors in PHP?
+11)What are the Traits and define them?
+12)Difference between require() and include() as well require_once() and include_once()?
+13)Define the Escaping in PHP?
+14)Define all about the OOPS in PHP?
+15)Does PHP support inheritance?
+16)Single and Multiple inheritance in PHP?
+17)Define final method and final class?
+18)Define the abstract class?
+19)Define Memcache and Memcached in PHP?
+20)What are the GET and POST define difference and it's uses?
+21)Define the API in PHP?
+22)define PDO in PHP?
+23)Define Conversion and casting in PHP?
+24)Difference between static and dynamic website?
+25)Define PHP7 features?
+26)Define the variable variables?
+27)What are the super global variable and define them?
+28)What are the magic constant and define them?
+29)Define the array function in PHP?
+30)Define the string function in PHP?
+31)How to connect with MYSQL and define it's methods?
+32)What is .htaccess file?
+33)Difference between explode() and implode() function in PHP?
+34)What are the persistent cookies?
+35)Difference between unset() and unlink() in PHP?
+36)Define static class and methods in PHP?
+37)Difference between for() and forEach()?
+38)What are the break and continue statement?
+39)Define constructor and destructor?
+40)How to use callback in PHP?
+41)Difference between runtime and compile time exception?
+42)How to handle exception in PHP define them?
+43)What is the purpose of php.ini file?
+44)What is NULL in PHP?
+45)How define regular expression in PHP define them?
+46)Define JSON in PHP explore them?
+47)What are Interface in PHP and how to use them?
+48)Define the use of header() function in PHP?
+49)Difference between exit() and die()?
+50)What is pass by value and pass by reference. Define them?
+51)Difference between type casting and type juggling?
+52)Define the persistence connection?
+53)What is garbage collection in PHP?
+54)How to encrypt the password define them?
+55)Define urlencode() and urldecode()?
+56)Define property of image and explore them?
+
