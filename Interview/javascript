@@ -54,7 +54,10 @@
 55)Difference between local and session storage?
 56)Difference between function declaration and function expression?
 57)Difference between Host object and Native object?
-58)Difference between await and yield?
+58)Difference between async-await and generators-yield?
 59)Define JS Events and Attributes?
 60)Difference between ES5 and ES6?
+61)what is freeze method in JS explain briefly?
+62)What is getter and setter in JS?
+63)Advantages of getter and setter and define them?
 
