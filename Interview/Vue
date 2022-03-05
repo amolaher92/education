@@ -5,7 +5,7 @@ It's provides a declarative and component based programming model.
 It's provides a MVVM architecture and Two-way binding concept.
 
 2)What are major features of Vue.js?
-A)Virtual DOM : It's light-weight-in-memory three representation of the original HTML DOM and update without affecting
+A)Virtual DOM : It's light-weight-in-memory tree representation of the original HTML DOM and update without affecting
                 the original HTML DOM.
 B)Component : Used to create reusable custom elements in Vue application.
 C)Templates : It's Provides HTML based templates that bind the DOM with the Vue instance data.
@@ -26,7 +26,7 @@ The Basically 8 type hooks are in Vue lif cycle.
 3)beforeMount():
 	This hooks  allow us to access our component immediately before and after the first render.
 4)mounted() :
-	This is most used hook it's gives us fu ll access to the reactive component, templates, and rendered DOM.
+	This is most used hook it's gives us full access to the reactive component, templates, and rendered DOM.
 	This hook allow us fetching data to our component.
 5)beforeUpdate() :
 	This hooks are runs after data changes on our component and the update life cycle begins,
@@ -52,7 +52,7 @@ It's special attributes provided by Vue, and they apply special reactive behavio
 
 6)What is slot?
 It's allow to implement a content distribution API, that serves as a distribution outlet for the content.
-basically it's rendere dynamically html element like as single file component.
+basically it's render dynamically html element like as single file component.
 scope: requirement to fill the slot content from data available in the child component only.
 
 7)whats is Props?
@@ -71,7 +71,7 @@ It's used to javascript expression using PIPE operator.
 use to interpolations or v-bind expression.
 We can define filter both global and local scope
 
-10)Difference between one-way and two-way binding?
+10)How to create an instance of Vue.js?
 11)What is Vuex?
 It's centralized store for all the components in an Vue application.
 12)Difference between watcher and computed?
@@ -81,6 +81,7 @@ It's centralized store for all the components in an Vue application.
 16)What is $emit?
 17)Vue project folder Structure?
 18)Define custom directive?
-19)What is component?
+19)What is component and define them?
 20)Differentiate vue directive modifiers for all events?
-21)
+21)Difference between one-way and two-way binding?
+22)
