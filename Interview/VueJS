@@ -16,7 +16,7 @@
     Life cycle hooks are a window into how the library you're using works behind-the-scenes.
     There are 8 lifecycle hooks are each vue.js instance.
     1)beforeCreate : called immediately after a vue instance has been initialized.
-    2)create: This hook invoked when Vue has set up events and data observations.
+    2)created: This hook invoked when Vue has set up events and data observations.
               Events are active and access to reactive data in enabled through template have not yet mounted ot rendered.
     3)beforeMount: Called right before the component is to be mounted.
                    This hooks allow us to access our component immediately before and after the first render.
@@ -49,7 +49,7 @@
     7)v-for: Iterator of rendered element.
         <div v-for="item in 10">{{item}}</div>
         <div v-for="(item,index) in array" :key="index">{{item}}</div>
-        <div v-for="(vale,key) in  object" :key="key">{{value,key}}</div>
+        <div v-for="(vale,key) of  object" :key="key">{{value,key}}</div>
         <div v-for="(value,name,index) in object" :key="index">{{value,name,index}}</div>
     8)v-on: attach an event listener to the element.shorthand(@)
     9)v-bind: Dynamically bind one or more attribute.shorthand(:)

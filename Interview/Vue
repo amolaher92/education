@@ -49,6 +49,7 @@ It's special attributes provided by Vue, and they apply special reactive behavio
 	2)support v-else and v-else-if directive			2)doesn't support
 	3)template support 									3)doesn't support
 	4)render if expression pass 						4)render all element
+	                                                    5)use to css hidden property
 
 6)What is slot?
 It's allow to implement a content distribution API, that serves as a distribution outlet for the content.
