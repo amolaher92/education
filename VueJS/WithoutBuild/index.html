@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/vue@3"></script>
+</head>
+<body>
+<div id="app">
+    <div class="container mx-auto mt-5 bg-red-100" v-cloak>
+        <section class="text-gray-600 body-font overflow-hidden">
+            <div class="container px-5 py-24 mx-auto">
+                <div class="lg:w-4/5 mx-auto flex flex-wrap">
+                    <img alt="socks" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded"
+                         v-bind:src="image">
+                    <div class="flex flex-col lg:w-1/2 w-full lg:pl-10 lg:py-6 mt-6 lg:mt-0">
+                        <h2 class="text-sm title-font text-gray-500 tracking-widest">BRAND NAME</h2>
+                        <h1 class="text-gray-900 text-3xl title-font font-medium mb-1">{{title}}</h1>
+                        <div class="flex bg-blue-300 font-bold p-4 w-20 ml-96">Cart ({{cart}})</div>
+                        <div class="flex">
+                            <p v-if="inStock > 10">In Stock</p>
+                            <p v-else-if="inStock <= 10 && inStock > 0">Almost Sold out</p>
+                            <p v-else>Out of Stock</p>
+                        </div>
+                        <div class="mt-2">
+                            <ul v-for="(item,index) in details" :key="index">
+                                <li class="text-lg font-semibold ml-5 mt-1">{{item}}</li>
+                            </ul>
+                        </div>
+                        <div class="flex mt-6 items-center pb-5 border-b-2 border-gray-100 mb-5">
+                            <div class="flex" v-for="(item, index) in variant" :key="item.id">
+                                <button v-bind:class="`border-2 border-${item.color}-300 ml-1 bg-${item.color}-700 rounded-full w-12 h-12 focus:outline-none`"
+                                        v-on:mouseover="updateVariant(index)"></button>
+                            </div>
+                        </div>
+                        <div class="flex">
+                            <span class="title-font font-medium text-2xl text-gray-900">$58.00</span>
+                            <button class="flex ml-auto font-bold bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded"
+                                    v-on:click="addToCart" :disabled="!inStock">
+                                Add to Cart
+                            </button>
+                            <button class="flex ml-auto font-bold bg-red-500 border-0 py-2 px-6 focus:outline-none hover:bg-red-600 rounded"
+                                    v-on:click="removeToCart" :disabled="cart == 0">
+                                remove to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+<script src="./app.js"></script>
+</body>
+</html>
