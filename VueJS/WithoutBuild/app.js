@@ -14,6 +14,7 @@ const app = Vue.createApp({
                 {id: 124, color: 'blue', image: './images/socks_blue.jpg', stock: 0}
             ],
             cart: 0,
+            reviews: []
         }
     },
     computed: {
@@ -36,6 +37,9 @@ const app = Vue.createApp({
         },
         updateVariant(index) {
             this.selectedVariant = index
+        },
+        addReview(review) {
+            this.reviews.push(review)
         }
     }
 });
