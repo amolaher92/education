@@ -12,6 +12,15 @@
 <script>
 import {mapState} from 'vuex'
 
+const testMixins = {
+  data: function () {
+    return {
+      message: 'Hello',
+      foo: 'ABC'
+    }
+  }
+}
+
 export default {
   name: 'Counter',
   data() {
@@ -44,6 +53,11 @@ export default {
       console.log(this.$store.state.count)
       this.count = this.$store.state.count
     }
+  },
+  mixins: [testMixins],
+  created() {
+    console.log(this.$data)
+    //console.log(JSON.stringify(this.$data.message))
   }
 }
 </script>

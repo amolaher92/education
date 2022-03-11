@@ -9,6 +9,7 @@
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/example">Store Example</RouterLink>
+        <RouterLink to="/state">State Management</RouterLink>
       </nav>
     </div>
   </header>
