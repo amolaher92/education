@@ -25,11 +25,12 @@
         1.4) String
         1.5) BigInt
         1.6) Symbol
+        1.7) null
     2)structural Data Types
         2.1) Object
         2.2) Arrays
-        2.3) Map 
-        2.4) Set 
+        2.3) Map
+        2.4) Set
         2.5) Date
 #------------------------------------------------------------------------------#
 #JS Keywords
@@ -47,7 +48,7 @@
 12) double  24) case    36) private     48) try         60) debugger
 #-------------------------------------------------------------------------------#
 #JS Identifiers and Rules
-An identifier is a sequence of characters in the code that identifies a variable, 
+An identifier is a sequence of characters in the code that identifies a variable,
 function, or property.
 
 1) Identifier are case-sensitive.
@@ -85,7 +86,7 @@ Relational operators[in,instanceof,new,this]
     7) equality     =   == != === !==
 #-------------------------------------------------------------------------------#
 #JS Literals
-JavaScript Literals are the fixed value that cannot be changed, you do not need to 
+JavaScript Literals are the fixed value that cannot be changed, you do not need to
 specify any type of keyword to write literals.
 
 1) Numeric Literals
@@ -98,7 +99,7 @@ specify any type of keyword to write literals.
         2.1) [digits].[digits][(E|e)[(+|-)]digits] --> {12.12E+2}
 2) String Literals
     2.1) String will be declared double OR single quote.{"string", 'string'}.
-    2.2) String will be concatenated with unary plus sign(+). 
+    2.2) String will be concatenated with unary plus sign(+).
 3) Template literals
     3.1) Used to back sticks {`string`}.
     3.2) Used to variable in interpolation `${variable}`.
@@ -135,13 +136,13 @@ The 7 types of native errors in JS.
 4) SyntaxError
     Creates an instance representing a syntax error.
 5) TypeError
-    Creates an instance representing an error that occurs when a variable or parameter 
+    Creates an instance representing an error that occurs when a variable or parameter
     is not of a valid type.
 6) URIError
-    Creates an instance representing an error that occurs when encodeURI() or 
+    Creates an instance representing an error that occurs when encodeURI() or
     decodeURI() are passed invalid parameters.
 7) AggregateError
-    Creates an instance representing several errors wrapped in a single error when 
+    Creates an instance representing several errors wrapped in a single error when
     multiple errors need to be reported by an operation, for example by Promise.any().
 #-------------------------------------------------------------------------------#
 #JS Decision-Making Statement
@@ -204,7 +205,7 @@ B) Loop Making
     // code to run
 }
 #---------------------------------------
-2) Initializer; 
+2) Initializer;
 while(condition)
 {
     // code to run
@@ -218,7 +219,7 @@ do{
 }while(condition)
 #---------------------------------------
 4)
-4.1) Object properties 
+4.1) Object properties
 for(KeyName in object)
 {
     //code to be executed;
@@ -230,7 +231,7 @@ for(variableName in array)
 }
 #---------------------------------------
 5)
-5.1) Object properties 
+5.1) Object properties
 for(keyName of object)
 {
     //code to be executed;
