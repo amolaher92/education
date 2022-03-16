@@ -1,0 +1,39 @@
+1)What is database?
+2)What is DBMS?
+3)What is RDBMS and define the relationships?
+4)What is SQL?
+5)Define SQL engines and their types?
+6)Define SQL vs MySQL?
+7)Define the dataType in SQL?
+8)What is primary key?
+9)What is foreign Key?
+10)what are constraints in SQL?
+11)What is JOIN?
+12)Define Type of JOIN's?
+13)What is index?
+14)What is data Integrity?
+15)What is Query?
+16)What is subQuery and it's types?
+17)What is Alias?
+18)What is Normalization and De-normalization?
+19)Define the type of Normalization?
+20)How to create a database?
+21)How to enter database?
+22)How to create table?
+23)How to use table?
+24)How drop database?
+25)How to Delete table?
+26)Difference between Delete,Truncate, and Drop?
+27)What are the aggregate and scalar functions?
+28)What is pattern matching in SQL?
+29)Define(subset) DDL,DML,DCL, and TCL in SQL?
+30)What is unique key?
+31)What is ACID Property in Database?
+32)Explain the character manipulation functions and define it's different type's in SQL?
+33)What is Data warehouse?
+34)What is store procedure?
+35)Define the CREATE,SELECT,DROP,ALTER,UPDATE,DELETE,INSERT in SQL?
+36)Define the usage of NVL() function?
+37)What is trigger in SQL?
+38)What is Views in SQL and define their types?
+

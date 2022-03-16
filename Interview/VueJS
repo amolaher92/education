@@ -1,0 +1,105 @@
+1)What is Vue.JS?
+    Is an open source progressive javascript framework for building interactive user interface.
+    It has capability to develop SPA.
+    It's provide a declarative and component based programming model.
+    It's provide MVVM architecture and two-way binding.
+2)What are the major features of Vue.JS?
+    A)Virtual DOM: It's light-weight-in-memory tree representation of original HTML DOM and
+                    update without affecting the original HTML DOM.
+    B)Component: Used to create reusable custom elements in Vue APK.
+    C)Templates: It's provides HTML based templates that bind with DOM with the Vue instance data.
+    D)Routing: Navigation between pages is achieved through vue-router.
+    E)Build-in-Directive: It's special attributes and they apply special reactive behavior to rendered DOM in HTML.
+    F)Support Model-View-View-Model architecture(MVVM).
+3)Explain the lifecycle of Vue.JS?
+    Every Vue instance passes through certain functions called lifecycle hooks.
+    Life cycle hooks are a window into how the library you're using works behind-the-scenes.
+    There are 8 lifecycle hooks are each vue.js instance.
+    1)beforeCreate : called immediately after a vue instance has been initialized.
+    2)created: This hook invoked when Vue has set up events and data observations.
+              Events are active and access to reactive data in enabled through template have not yet mounted ot rendered.
+    3)beforeMount: Called right before the component is to be mounted.
+                   This hooks allow us to access our component immediately before and after the first render.
+    4)mounted: Called after the component is mounted.
+               It's gives us full access to the reactive component,template, and rendered DOM.
+               It's allow us fetching data to our component.
+    5)beforeUpdate: Called right before the component is about to update it's DOM tree due to a reactive state change.
+    6)updated: Called after the component has updated it's DOM tree due to reactive state change.
+    7)beforeUnmount: Called right before a component instance is to be unmounted.
+    9)unmounted: Called after the component has been unmounted.
+4)How to create an instance of Vue.JS?
+    const app = new vue({//options});
+5)What is Components and define them?
+    Components are reusable vue instance with a name. They accept all same options as vue instance created.
+    app.component('c_name',{ template : 'HTML Code'});
+6)What is directive and define them?
+    It's special attribute provide by vue, and they apply special reactive behavior to rendered DOM in HTML element.
+    The list if Directives are:
+    1)v-text: Update the element text content. like interpolation {{msg}}.
+        <span v-text="msg"></span> === {{msg}}
+    2)v-html: Update the element innerHTML
+        <div v-html="html"></div>
+    3)v-show: Toggle the element visibility.
+    4)v-if: Conditional rendering element.
+    5)v-else: after the v-if and don't any expression.
+    6)v-else-if: Use to nested conditional rendering.
+        <div v-if="C1"></div>
+        <div v-else-if="C2"></div>
+        <div v-else></div>
+    7)v-for: Iterator of rendered element.
+        <div v-for="item in 10">{{item}}</div>
+        <div v-for="(item,index) in array" :key="index">{{item}}</div>
+        <div v-for="(vale,key) of  object" :key="key">{{value,key}}</div>
+        <div v-for="(value,name,index) in object" :key="index">{{value,name,index}}</div>
+    8)v-on: attach an event listener to the element.shorthand(@)
+    9)v-bind: Dynamically bind one or more attribute.shorthand(:)
+    10)v-model: Create two-way binding.
+    11)v-slot: Denote the name slot.shorthand(#).
+    12)v-pre: Skip compilation for this element and all it's children.
+    13)v-once: Render element and component once only.
+    14)v-clock: used to hide un-compiled template until is ready.
+7)What is Binding and define them?
+    Vue.js supports both one-way and two-way binding.
+    using one-way binding we can update classes,style,JS properties.
+    using two-way binding update HTML view and their related JS properties.
+8)What is SFC in Vue.JS?
+    SFC is file like any other component except that they are self-contained in their own files.
+9)What is Props in Vue.JS?
+    Props is custom attribute we can register on an component.
+    Using props we can pass the data between parent component to child component.
+10)What is Property in Vue.JS?
+11)Difference between one-way and two-way binding in Vue.JS?
+12)What is Mixins in Vue.JS?
+13)What is Filter in Vue.JS?
+14)What is Vuex in Vue.JS?
+15)What is slot in Vue.JS?
+16)What is watcher in Vue.JS?
+17)What is computed property in Vue.JS?
+18)Difference between watcher and computed?
+19)What is $route?
+20)What is $emit?
+21)What is inject and provide in Vue.JS?
+22)Vue project structure?
+23)Which file hold Vue in Vue.JS?
+24)Define the custom directive and custom events in Vue.JS?
+25)Difference between v-if and v-show?
+26)Define the directive modifiers(key,event,mouse) in Vue.JS?
+27)How to define property and events using directive in Vue.JS?
+28)What is Reactivity in Vue.JS?
+29)List the Vue directives and define their usage?
+30)What is $parent and $child?
+31)Describe the ref in Vue.JS?
+32)Explain vue-router in Vue.JS?
+33)Define global and local scope in Vue.JS?
+34)What are the conditional directives?
+35)What are the plugins and their various services?
+36)What is render function in Vue.JS?
+37)Purpose of keep-alive tag in Vue.JS?
+38)What is template in Vue.JS?
+39)What is best way to re-render a component?
+40)Difference between composition and options API in Vue.JS?
+41)What is vue-resource plugin in Vue.JS?
+42)What problem solve by SFC in Vue.JS?
+43)How to crate constant in Vue.JS?
+44)What is getter and setter in Vue.JS and how to define them?
+45)

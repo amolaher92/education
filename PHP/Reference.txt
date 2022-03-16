@@ -1,0 +1,223 @@
+#PHP Introduction
+    1) It's stands for "Hyper-text Preprocessor.
+    2) It's embedded in HTML.
+    3) It is free,open-source, multi-threaded, loosly-typed, dynamic server-side scripting langauge.
+    4) It is cross-platform, prototype-based, multi-paradigm,high-level scripting language.
+    5) It is functional, object-oriented,imperative,procedural scripting langauge.
+    6) It's supports many databases such as MySQL,PostgreSQL,Sybase,Oracle.
+    7) Developed by " Rasmus Lerdorf ".
+#PHP Engines
+    1) Zend Engine
+#PHP Popular Frameworks
+    1) Laravel, CodeIgniter, Symfony, CakePHP, Phalcon, WordPress.
+#PHP Extension
+    1) save file with ".php" extension.
+#What PHP do?
+    1) It's generate interactive-dynamic page content.
+    2) It's create,open,read,write,delete and close files on the server.
+    3) It's collect form data.
+    4) It's can send and receive cookies.
+    5) It's can add,delete, modify data in database.
+    6) It's control user access and encrypt data.
+#What's new in PHP7?(https://www.php.net/manual/en/migration70.new-features.php)
+    1) Scalar type declarations.
+    2) Return type declarations.
+    3) Null coalescing operator.
+    4) Spaceship operator.
+    5) Constant arrays using define().
+    6) Anonymous classes.
+    8) session option.
+    9) group "use" declarations.
+#-------------------------------------------------------------------------------#
+#PHP Data Types
+    1) Predefined Data Types
+        1.1) Boolean
+        1.2) Integer
+        1.3) String
+        1.4) Float(Double)
+    2) User-Defined Data Types
+        2.1) Array 
+        2.2) Object 
+    3) Special Data Types
+        3.1) Resources
+        3.2) NULL 
+#-------------------------------------------------------------------------------#
+#PHP Keywords
+1) var      11) default     21) global          31) abstract        41) use         51) finally
+2) const    12) continue    22) declare         32) public          42) trait       52) yield
+3) if       13) for         23) include         33) private         43) new         53) yield_form
+4) else     14) foreach     24) include_once    34) protected       44) namespace   54) enddeclare
+5) elseif   15) and         25) require         35) instanceof      45) insteadof   55) endif
+6) do       16) or          26) require_once    36) function        46) try         56) endswitch
+7) while    17) xor         27) goto            37) return          47) catch       57) endwhile
+8) switch   18) as          28) class           38) extends         48) throw       58) endfor
+9) case     19) echo        29) final           39) implements      49) clone       59) endforech
+    10) break   20) print       30) static          40) interface       50) callable    
+#-------------------------------------------------------------------------------#
+#PHP Super Global variables
+1) $GLOBALS
+2) $_SERVER
+3) $_REQUEST
+4) $_POST
+5) $_GET
+6) $_FILES
+7) $_ENV
+8) $_COOKIE
+9) $_SESSION
+#-------------------------------------------------------------------------------#
+#PHP Magic Methods
+1) __construct()        9) __sleep()            17) __debuginfo()
+2) __destruct()         10) __wakeup()
+3) __call()             11) __serialize()
+4) __callStatic()       12) __unserialize()
+5) __get()              13) __toString()
+6) __get()              14) __invoke()
+7) __isset()            15) __set_state()
+8) __unset()            16) __clone()
+#-------------------------------------------------------------------------------#
+#PHP Magic Constant
+1) __LINE__
+2) __FILE__
+3) __DIR__
+4) __FUNCTION__
+5) __CLASS__
+6) __TRAIT__
+7) __METHOD__
+8) __NAMESPACE__
+9) ClassName::class
+#-------------------------------------------------------------------------------#
+#PHP Identifiers and Rules
+An identifier is the name by which we identify variables, constants, arrays, 
+functions, interfaces and classes.
+
+1) Identifier are case-sensitive.
+2) variable must begin with a dollar sing[$].
+3) variable must begin after dollar sing[$] contain alphabets[a-z|A-Z], OR underscore[_].
+4) variable can contain aplha-numeric[a-z|A-Z|0-9], underscore[_].
+5) variable can not contain Keywords.
+6) variable can not contain whitespaces.
+7) variable can not contain special symbol.
+8) Math operations rule-> Multiplication | Division | Addition | Subtraction.
+9) Prefered to use Snake_case,camelCase OR PascalCase.
+#-------------------------------------------------------------------------------#
+#PHP operators
+Arithmetic operators[+,-,*,/,%,++,--,**].
+Comparison operators[==,!=,===,!==,>,>=,<,<=,<>].
+Bitwise operators[&,|,~,^,<<,>>,>>>].
+Logical operators[&&,||,!,AND,OR,XOR].
+Assignment operators[=,+=,-=,*=,/=,%=,**=, <<=,>>=,&=,|=,^=,&&=,||=,??=].
+Ternary operator(Conditional)[condition ? val1 : val2].
+String operator[.,.=].
+Scope Resolution[::].
+Null coalescing operator[??].
+Spaceship operator [<=>].
+#-------------------------------------------------------------------------------#
+#PHP Literals
+1) Numeric Literals
+    1.1) Decimal[Base 10] are define as normal integer.-->{[0-9]}.
+    1.2) Octal[Base 8] are define a leading zero[0]-->{0[1-7]}.
+    1.3) Hexadecimal[0-9,A-F] are defined a leading zero+x[0x].-->{0x[0-9,A-F]}.
+2) String Literal
+    2.1) String will be declare double OR single quote.{"string", 'string'}.
+    2.2) String will be concatenated with period operator(.).
+3) Array Literal
+    4.1) Array define using array() methods.
+    4.2) We can define Indexed arrays{array("A","B","C")} and 
+                Associative arrays{array("Key" => "Value")}.
+#-------------------------------------------------------------------------------#
+#PHP Comments
+1) Single line ([//,#]).
+2) Multiline (/*....*/).
+#-------------------------------------------------------------------------------#
+#PHP Error Types
+The 4 types error in PHP.
+1) Parse error(Syntax error)[syntax mistakes]
+2) Fatal error[access undefined function]
+3) Warning Error[include missing files]
+4) Notice error[access undefined variables]
+#-------------------------------------------------------------------------------#
+#PHP Decision Making Statement
+A) Conditional Making
+
+1) if(condition){
+        //code to run if condition is true
+    }
+#---------------------------------------
+2) if(condition){
+        //code to run if condition is true;
+    }else{
+        //code to run if condition is false;
+    }
+#---------------------------------------
+3) if(condition){
+        //code to run if condition is true;
+        if(condition){
+            //code to run if condition is true;
+            if(condition){
+                //code to run if condition is true;
+            }
+        }
+    }
+#---------------------------------------
+4) if(condition){
+    //code to run if condition is true;
+    }else if(condition){
+        //code to run if condition is true;
+    }else if(condition){
+        //code to run if condition is true;
+    }else{
+        //code to run if condition is false;
+    }
+#---------------------------------------
+5) swich(expression)
+    //Expression must have Number or string;
+    {
+        case choice1 : //code to run if condition is true;
+        break;
+
+        case choice2 : //code to run if condition is true;
+        break;
+            .
+            .
+            .
+        case choiceN : //code to run if condition is true;
+        break;
+
+        default : //code to run if condition is false;
+    }
+#---------------------------------------
+6) Ternary operator
+condition ? //Statement to run if condition is true; : //Statement to run if condition is false;
+#---------------------------------------
+B) Loops Making
+
+1) for(initialization; condition; expression[increment/decrement])
+{
+    // code to run
+}
+#---------------------------------------
+2) Initializer; 
+while(condition)
+{
+    // code to run
+    //final-expression[increment/decrement]
+}
+#---------------------------------------
+3) Initializer;
+do{
+    // code to run
+    // final-expression[increment/decrement]
+}while(condition)
+#---------------------------------------
+4) 
+4.1) Indexed Array
+foreach($array as $value)
+{
+    // code to run
+}
+4.2) Associative Array
+foreach($array as $key => $value)
+{
+    // code to run
+}
+#-------------------------------------------------------------------------------#

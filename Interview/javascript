@@ -1,0 +1,63 @@
+1)What is JS?
+2)Define DataType in JS?
+3)What is isNan function and define isFinite() function?
+4)What is negative infinity?
+5)Difference between undefined and undeclared variable?
+6)Explain is this keyword?
+7)What is timers in JS?
+8)What about setTimeout(),setInterval() and clearInterval?
+9)Define view state and session state?
+10)What is variable typing?
+11)Define the conversion in JS?
+12)What is null in JS?
+13)What is Hoisting in JS and explain them (variable & function)?
+14)What is closure in JS explain them?
+15)Difference between regular and arrow function?
+16)Difference between var,let, and const?
+17)Define Void(0) in JS?
+18)What are the Promise in JS and explain them?
+19)Define async and await in JS?
+20)Define Error in JS?
+21)Define strict mode in JS?
+22)Define Anonymous function in JS?
+23)Define call(),bind() and apply() methods in JS?
+24)What is event bubbling, event capturing, and event delegation in JS explain them?
+25)What are the Iterator(array & object) in JS?
+26)Define ES6 features?
+27)Define the prototype[array & object] in JS?
+28)Explain the implicit coercion in JS?
+29)Explain pass by value and pass by reference?
+30)What is an Immediately invoked function expression(IIFE) in JS?
+31)Explain the higher order function in JS?
+32)Explain scope and scope chain in JS?
+33)What are callbacks in JS?
+34)What is the use of a constructor function in JS?
+35)What is DOM and BOM explain them?
+36)Define the spread operator?
+37)What are the destructing in JS explain them?
+38)What is undefined and null value in JS?
+39)Explain Map,weakSet, and weakMap object in JS?
+40)Define stack and queue methods in array and Object?
+41)How JS work in URL explain them with methods?
+42)Define array and object in JS with methods?
+43)Define and explain unit testing in JS with testing tools?
+44)Define the possible way to create object in JS?
+45)What is prototype chain?
+46)What is JSON and it's common operations?
+47)Difference between slice and splice in JS?
+48)What is memoization?
+49)what are the labels in JS?
+51)Define the regular expression pattern?
+52)What is debugger in JS explain them?
+53)Difference between synchronous and asynchronous in JS?
+54)Difference between Attribute and Property?
+55)Difference between local and session storage?
+56)Difference between function declaration and function expression?
+57)Difference between Host object and Native object?
+58)Difference between async-await and generators-yield?
+59)Define JS Events and Attributes?
+60)Difference between ES5 and ES6?
+61)what is freeze method in JS explain briefly?
+62)What is getter and setter in JS?
+63)Advantages of getter and setter and define them?
+

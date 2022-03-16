@@ -1,0 +1,41 @@
+1)What is Laravel?
+2)Explore the features of laravel?
+3)Define composer?
+4)What is the templating engine used in laravel?
+5)What is an artisan?
+6)What are the default routes files in laravel?
+7)What are migration in laravel?
+8)What are seeders in laravel?
+9)What are factories in laravel?
+10)What are the models?
+11)What are relationships in laravel?
+12)What is Eloquent in laravel?
+13)What is throttling and how to implement in a laravel?
+14)What are facades?
+15)What are events in laravel?
+16)Explain logging in laravel?
+17)What are request in laravel?
+18)How to do request validation in laravel?
+19)What is service container in laravel?
+20)What is a Service in laravel?
+21)How to define routes in laravel?
+22)What is named routes?
+23)what are the route group?
+24)What is middleware and how to create one in laravel?
+25)How to create a route for resources in laravel?
+26)What is dependency injection in laravel?
+27)what are collection?
+28)What are the contract?
+29)What are queues in laravel?
+30)What are accessors and mutators?
+31)Explain trait in laravel?
+32)What is ORM?
+33)List of basics concept in laravel?
+34)What are the policies in laravel?
+35)What are the laravel forge?
+36)Define hashing in laravel?
+37)Explain validation in laravel?
+39)What is CSRF in laravel and how to define them?
+40)Define the folder structure in laravel?
+
+

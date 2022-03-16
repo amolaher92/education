@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "firstName": "Amol",
+      "lastName": "Aher",
+      "email": "amol@gmail.com",
+      "password": "amol123",
+      "mobile": "9860780147",
+      "company": "Google",
+      "id": 1
+    },
+    {
+      "firstName": "Kiran",
+      "lastName": "Shear",
+      "email": "kiran@gmail.com",
+      "password": "amol123",
+      "mobile": "98656456447",
+      "company": "Amezon",
+      "id": 2
+    },
+    {
+      "firstName": "Amol",
+      "lastName": "Aher",
+      "email": "test@api.com",
+      "password": "amol123",
+      "mobile": "8007676791",
+      "company": "Google",
+      "id": 3
+    }
+  ]
+}
