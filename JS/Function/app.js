@@ -17,5 +17,18 @@ const funcations = {
     if(!str) return '';
     str = str.toString();
     return str.charAt(0).toUpperCase() + str.slice(1)
+  },
+  
+  /**
+   * @input DOM event
+   * @output to show element select-option value which index selected
+   */
+  changeEventGetOptionsValue(event){
+    let index,value;
+    index = event.target.options.selectedIndex;
+    if(index > -1){
+      value = event.target.options[index].value;
+    }
+    return value;
   }
 }
