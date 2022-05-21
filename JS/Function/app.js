@@ -23,12 +23,20 @@ const funcations = {
    * @input DOM event
    * @output to show element select-option value which index selected
    */
-  changeEventGetOptionsValue(event){
+  selectChangeEventGetOptionsValue(event){
     let index,value;
     index = event.target.options.selectedIndex;
     if(index > -1){
       value = event.target.options[index].value;
     }
     return value;
+  },
+  
+  /**
+   * @input amol aher
+   * @output amol-aher
+   */
+  createSlugForHypen(str){
+    return str.toLowerCase().replace(/&/g,'and').replace(/ /g, '-').replace(/[^\w-]+/g, ''),
   }
 }
