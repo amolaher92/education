@@ -38,5 +38,17 @@ const funcations = {
    */
   createSlugForHypen(str){
     return str.toLowerCase().replace(/&/g,'and').replace(/ /g, '-').replace(/[^\w-]+/g, ''),
+  },
+  
+  /**
+   * @input ['A','B','C','D','E',A','B','C']
+   * @output ['A','B','C','D','E']
+   * @param Array
+   * @var arr
+   */
+  getUniqueCharacter(arr){
+    let uniqueChar = arr.filter((c,index)=>{
+        return arr.indexOf(c) === index;
+    });    
   }
 }
