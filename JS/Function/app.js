@@ -50,5 +50,17 @@ const funcations = {
     let uniqueChar = arr.filter((c,index)=>{
         return arr.indexOf(c) === index;
     });    
+  },
+  
+   /**
+   * @input ['A','B','C','D','E',A','B','C']
+   * @output ['A','B','C']
+   * @param Array
+   * @var arr
+   */
+  getDuplicateCharacter(){
+    let duplicateCharacters = arr.filter((c,index)=>{
+        return arr.indexOf(c) !== index;
+    });
   }
 }
