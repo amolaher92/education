@@ -52,15 +52,29 @@ const funcations = {
     });    
   },
   
+  getUniqueCharacterUsingFilterAndInclude(arr){
+    let uniqueChar = [];
+    arr.forEach((c)=>{
+      if(!uniqueChar.include(c)) uniqueChar.push(c)
+    });
+    return uniqueChar;
+  },
+  
+  getUniqueCharUsingSet(arr){
+    let uniqueChar = [...new Set(arr)];
+    return uniqueChar;
+  },
+  
    /**
    * @input ['A','B','C','D','E',A','B','C']
    * @output ['A','B','C']
    * @param Array
    * @var arr
    */
-  getDuplicateCharacter(){
+  getDuplicateCharacter(arr){
     let duplicateCharacters = arr.filter((c,index)=>{
         return arr.indexOf(c) !== index;
     });
-  }
+  },
+  
 }
