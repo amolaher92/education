@@ -78,3 +78,13 @@ const funcations = {
   },
   
 }
+
+
+const capitalizeWordFirstLetter = (string) => {
+    return string
+      .split(" ")
+      .map((word, index) => {
+        return word[0].charAt(0).toUpperCase() + word.slice(1);
+      })
+      .join(" ");
+  };
