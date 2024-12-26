@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="312e5900-5e0c-4e57-ad7a-717a0098cf42" name="Changes" comment="Init JS,TS,JAVA,PHP,SQL">
+      <change afterPath="$PROJECT_DIR$/JS/AJAX/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/API/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Async/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DOM/Events/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DOM/Methods/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DOM/Objects/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DOM/Properties/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DOM/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DataBase/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DataType/Array/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DataType/Casting/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DataType/Object/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DecisionMaking/Conditions/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DecisionMaking/Loop/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/DecisionMaking/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Errors/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/ExceptionsHandling/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/FileHandling/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Function/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/JSON/DataType/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/JSON/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/OOPS/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Operators/Arithmetic/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Operators/Assignment/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Operators/Bitwise/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Operators/Comparison/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Operators/Logical/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Operators/Others/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/Operators/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS/XML/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/DataBase/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/DataType/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/DecisionMaking/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/Errors/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/ExceptionsHandling/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/FileHandling/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/Methods/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/OOPS/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/Operators/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Java/XML/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/AJAX/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/Cookies/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/DataBase/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/DataType/Array/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/DataType/Casting/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/DataType/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/DecisionMaking/Conditions/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/DecisionMaking/Loop/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/DecisionMaking/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/Errors/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/ExceptionsHandling/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/FileHandling/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/Function/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/JSON/DataType/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/JSON/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/OOPS/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/Operators/Arithmetic/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/Operators/Assignment/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/Operators/Bitwise/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/Operators/Comparison/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/Operators/Logical/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/Operators/Others/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/Operators/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/Session/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP/XML/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/Clauses/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/DBMS/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/DCL/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/DDL/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/DML/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/DataType/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/ERDM/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/Engines/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/Errors/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/Expression/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/Functions/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/Joins/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/Operators/Arithmetic/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/Operators/Assignment/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/Operators/Bitwise/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/Operators/Comparison/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/Operators/Logical/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/Operators/Others/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/Operators/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/RDBMS/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/StoreProcedures/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/Syntax/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/TCL/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/Triggers/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/Views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/DataBase/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/DataType/Array/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/DataType/Casting/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/DataType/Object/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/DecisionMaking/Conditions/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/DecisionMaking/Loop/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/DecisionMaking/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/Errors/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/FileHandling/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/OOPS/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/Operators/Arithmetic/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/Operators/Assignment/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/Operators/Bitwise/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/Operators/Comparison/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/Operators/Logical/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/Operators/Others/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TS/Operators/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="242RR79uZHqwVd8U6iTiQeSoxJH" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TS/Operators/Others" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2021.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\amolaher92\project\Education\TS\Operators\Others" />
+      <recent name="D:\amolaher92\project\Education\TS\Operators\Logical" />
+      <recent name="D:\amolaher92\project\Education\TS\Operators\Comparison" />
+      <recent name="D:\amolaher92\project\Education\TS\Operators\Bitwise" />
+      <recent name="D:\amolaher92\project\Education\TS\Operators\Assignment" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="312e5900-5e0c-4e57-ad7a-717a0098cf42" name="Changes" comment="" />
+      <created>1642826684265</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642826684265</updated>
+      <workItem from="1642826685586" duration="2893000" />
+    </task>
+    <task id="LOCAL-00001" summary="Init JS,TS,JAVA,PHP,SQL">
+      <created>1642829183999</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642829183999</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init JS,TS,JAVA,PHP,SQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init JS,TS,JAVA,PHP,SQL" />
+  </component>
+</project>
